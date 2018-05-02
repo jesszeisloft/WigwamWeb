@@ -3,7 +3,8 @@
 /*______________________TEXT FORMATTING________________________________*/
 body{
 	background-color:  #ffffff;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+  font-family: "Veranda";
 	color: #000000;
 	text-align: center;
 }
@@ -115,7 +116,9 @@ a > img[src$=".jpg"]:hover{
 
 .article h2{
   font-size: 250%;
-  margin-bottom: 50px;
+  max-width: 80%;
+  float:center;
+  margin:30px auto 50px auto;
 }
 
 .article p{
